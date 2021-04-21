@@ -1,0 +1,25 @@
+{
+  "name": "my-blog",
+  "private": true,
+  "scripts": {
+    "develop": "gridsome develop",
+    "explore": "gridsome explore",
+    "build": "gridsome build"
+  },
+  "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.4",
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-netlify-cms": "^1.0.9",
+    "netlify-cms": "^2.10.117"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.1.0",
+    "autoprefixer": "^9.8.6",
+    "gridsome-plugin-tailwindcss": "^4.1.1",
+    "node-sass": "^5.0.0",
+    "postcss": "^7.0.35",
+    "sass-loader": "^11.0.1",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.0"
+  }
+}
